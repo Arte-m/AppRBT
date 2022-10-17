@@ -1,0 +1,62 @@
+html {
+    font-size: 15px;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    display: block;
+ }
+ body {
+    margin: 0;
+    padding: 0;  
+ }
+ 
+ header h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+ }
+ footer {
+    text-align: center;
+    margin-top: 15px;
+    padding: 1%;
+    display: block;
+ }
+ main {
+    display: flex;
+ }
+ article {
+    flex: 4;
+    border: 1px solid gray;
+    
+ }
+ 
+ aside {
+    flex: 2;
+    border-left: 1px solid gray;
+    
+ }
+ aside ul {
+    cursor: pointer;
+    list-style: none;
+    
+ }
+ 
+ aside div {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+ }
+ table {
+    margin: 15px;
+    border: 1px solid gray;
+    border-collapse: collapse;
+ }
+ td {
+    border: 1px solid gray;
+    padding: 5px;
+ }
+ th {
+    border: 1px solid gray;
+    padding: 5px;   
+    background-color: rgb(238, 236, 236);
+    
+ }
